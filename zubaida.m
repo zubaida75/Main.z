@@ -1,0 +1,15 @@
+from tkinter import *
+top=Tk()
+top.geometry("350x200")
+l1=Label(top,text="user name")
+E1=Entry(top,bd=5)
+l1.place(x=53,y=75)
+E1.place(x=125,y=70)
+s=Label(top,text="password")
+s.place(x=50,y=100)
+ES=Entry(top,bd=5)
+ES.place(x=125,y=100)
+z=Button(top,text='submet',width=6)
+z.place(x=20,y=160)
+top.mainloop()
+
